@@ -4,10 +4,10 @@ body {
 
 .login-todo {
   background-image: url('../imagenes/login3.jpg');
-  background-size: cover; /* Cubre todo el espacio disponible */
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Toma el 100% de la altura de la ventana */
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
