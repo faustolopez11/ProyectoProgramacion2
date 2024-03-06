@@ -41,6 +41,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="turnos.html">Turnos</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="login.html">Cerrar Sesion</a>
+                        </li>
                         </ul>
                     </div>
                 </div>
@@ -59,8 +62,15 @@
                 <input type="number" id="celular" placeholder="Su celular" required>
                 <label for="nombremascota">Nombre Mascota</label>
                 <input type="text" id="nombremascota" placeholder="Nombre de su Mascota" required>
-                <label for="especie">Especie</label>
-                <input type="text" id="especie" placeholder="Especie" required>
+                <label for="especie">Selecciona una especie:</label>
+                <select id="especie" name="especie" required>
+                  <option value="" disabled selected hidden></option>
+                  <option value="perro">Perro</option>
+                  <option value="gato">Gato</option>
+                  <option value="conejo">Conejo</option>
+                  <option value="lagarto">Lagarto</option>
+                  <option value="araña">Araña</option>
+                </select>
                 <label for="edadanimal">Edad Mascota</label>
                 <input type="text" id="edadanimal" placeholder="Edad del animal" required>
                 <label for="turno">turno</label>

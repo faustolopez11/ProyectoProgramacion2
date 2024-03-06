@@ -302,6 +302,14 @@ input {
   background-color:#3F72AF; 
 }
 
+.botonusuario {
+  padding: 10px 20px;
+  background-color: #00ADB5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 .menuadmin {
   margin-top: 10%;
   display: flex;
